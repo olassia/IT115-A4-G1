@@ -1,13 +1,13 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
-<html> 
+<html>
 
-<head> 
-<title>Git Tutorial Project</title> 
-</head>  
+<head>
+<title>Git Tutorial Project</title>
+</head>
 
-<body> 
-<h1>This is the Home page</h1>     
-</body>  
+<body>
+<h1>This is the Home page</h1>   
+</body>
 
 </html>
