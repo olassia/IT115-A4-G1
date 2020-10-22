@@ -3,7 +3,7 @@
 <html>
 
 <head>
-<title>Git Tutorial Project</title>
+<title>This is my team's webpage</title>
 </head>
 
 <body>
