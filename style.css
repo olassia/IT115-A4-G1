@@ -1,0 +1,126 @@
+/*Colors from Turkey Gif
+Brown #4e2114
+Dark Brown #37231d
+Lighter Green #10941B
+Green #0c4e23
+Darker Green #0d1f0c
+Greyish White #0c4e23
+Light Blue #74cfd1
+Redish #9b0006
+Redish Brown #783835
+Mustard Yellow #dda904
+*/
+
+header {
+    background: #D24800; /*above navigaton */
+    top: 0;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    line-height: 3.5%;
+    font-size: 140%;
+ }
+ 
+nav {
+    overflow: visible;
+    text-align: center;
+    margin: 4%;
+  }
+  
+nav a {
+    float: none;
+    color: #fff8f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  
+nav a:hover {
+    background-image: url(images/leaf_fall_3_sm.gif);
+    background-size: 200%;
+  }
+  
+nav a:active {
+    background-image: url(images/leaf_fall_2.gif);
+    background-size: 200%;
+  }
+
+p:first-letter {
+font-size:180%;
+}
+
+/* * {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+} */
+
+body {
+    background: #623004;
+    font-size:75%;
+}
+
+.row { /*logo and under copyright*/
+    max-width:90%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+.wrapper { /*both main and aside */
+    max-width:90%;
+    margin: 0 auto;
+}
+
+main {
+    width: 64%;
+    float: left;
+    background: #EBBA38; /* left side*/
+    height: 100%;
+}
+.main2 {
+    width: 100%;
+    float: left;
+    background: #EBBA38; /* left side*/
+    height: 100%;
+    margin: 0 auto 8%;
+}
+
+aside {
+    width: 34%;
+    float: right;
+    background:#EBBA38;/*white- right side*/
+    height: 100%;
+}
+.randomGif {
+    padding: 1% 5%;
+    float: left;
+}
+
+footer {
+    height: 40px;
+    line-height: 20px;
+    background: #D24800; /*under copyright*/
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    
+
+}
+
+/* .copyright {
+    height: 50px;
+    line-height: 50px;
+    background: rgb(68, 105, 81);
+    color: white;
+} */
+
+.copyright li {
+    list-style-type: none;
+    margin-right: 30px;
+    float: left;
+}
