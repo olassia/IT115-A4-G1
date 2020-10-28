@@ -19,7 +19,7 @@ header {
     width: 100%;
     position: fixed;
     line-height: 3.5%;
-    font-size: 140%;
+    font-size: 200%;
  }
  
 nav {
@@ -30,12 +30,12 @@ nav {
   
 nav a {
     float: none;
-    color: #fff8f2;
+    color: #10941B;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
   }
   
 nav a:hover {
@@ -60,7 +60,7 @@ font-size:180%;
 
 body {
     background: #623004;
-    font-size:75%;
+    font-size:150%;
 }
 
 .row { /*logo and under copyright*/
