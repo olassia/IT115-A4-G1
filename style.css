@@ -15,11 +15,11 @@ Mustard Yellow #dda904
 header {
     background: #D24800; /*above navigaton */
     top: 0;
-    height: 60px;
+    height: 100px;
     width: 100%;
     position: fixed;
     line-height: 3.5%;
-    font-size: 170%;
+    font-size: 150%;
  }
  
 nav {
@@ -30,7 +30,7 @@ nav {
   
 nav a {
     float: none;
-    color: #fff8f2;
+    color: #74cfd1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,7 +49,7 @@ nav a:active {
   }
 
 p:first-letter {
-font-size:180%;
+font-size:160%;
 }
 
 /* * {
@@ -60,7 +60,7 @@ font-size:180%;
 
 body {
     background: #d48d4e;
-    font-size:150%;
+    font-size:120%;
 }
 
 .row { /*logo and under copyright*/
