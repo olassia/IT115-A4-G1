@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <title>GitHub web page</title>
-<link href="<?php echo $style ?>" type="text/css" rel="stylesheet">
 <link href="style.css" type="text/css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Staatliches&display=swap" rel="stylesheet">
 </head>
@@ -40,7 +39,26 @@ I haven't felt much of anything since my guinea pig died.</p>
 
         <aside>
                 <div class = "randomGif">
-                    <img src="images/turk<?php $random = rand(1,8); echo $random; ?>.gif" alt="[]" height="100%" width="100%" />
+                    <div id="image"></div>
+                        <script>
+                        var images = [
+                        "images/turk1.gif",
+                        "images/turk2.gif",
+                        "images/turk3.gif",
+                        "images/turk4.gif",
+                        "images/turk5.gif",
+                        "images/turk6.gif",
+                        "images/turk7.gif",
+                        "images/turk8.gif",
+                        ];
+
+                        function randImg() {
+                        var size = images.length
+                        var x = Math.floor(size * Math.random())
+                        document.getElementById('image').innerHTML=  ('<img src="' + images[x] + '" width="100%">')
+                        }
+                        randImg();
+                        </script>
                 </div>
         </aside>
     </div>
