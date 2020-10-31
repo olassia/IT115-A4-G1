@@ -15,7 +15,7 @@ Mustard Yellow #dda904
 header {
     background: #D24800; /*above navigaton */
     top: 0;
-    height: 80px;
+    height: 70px;
     width: 100%;
     position: fixed;
     line-height: 3.5%;
@@ -30,12 +30,12 @@ nav {
   
 nav a {
     float: none;
-    color: #74cfd1;
+    color: #D24800;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
   }
   
 nav a:hover {
