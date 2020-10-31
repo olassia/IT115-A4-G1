@@ -15,11 +15,11 @@ Mustard Yellow #dda904
 header {
     background: #D24800; /*above navigaton */
     top: 0;
-    height: 40px;
+    height: 60px;
     width: 100%;
     position: fixed;
     line-height: 3.5%;
-    font-size: 200%;
+    font-size: 170%;
  }
  
 nav {
