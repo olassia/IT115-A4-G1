@@ -44,7 +44,7 @@ nav a:hover {
     background-size: 200%;
   }
   
-nav a:active {
+nav a.active {
     background-image: url(images/leaf_fall_2.gif);
     background-size: 200%;
   }
