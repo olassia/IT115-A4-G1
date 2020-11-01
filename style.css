@@ -13,7 +13,7 @@ Mustard Yellow #dda904
 
 
 header {
-    background: #D24800; /*above navigaton */
+    background: #762B18; /*above navigaton */
     top: 0;
     height: 70px;
     width: 100%;
@@ -60,7 +60,7 @@ font-size:145%;
 } */
 
 body {
-    background: #d48d4e;
+    background: #CF933E;
     font-size:120%;
 }
 
@@ -80,13 +80,13 @@ body {
 main {
     width: 64%;
     float: left;
-    background: #eba871; /* left side*/
+    background: #D4AE6D; /* left side*/
     height: 100%;
 }
 .main2 {
     width: 100%;
     float: left;
-    background: #EBBA38; /* left side*/
+    background: #D4AE6D; /* left side*/
     height: 100%;
     margin: 0 auto 8%;
 }
@@ -94,9 +94,10 @@ main {
 aside {
     width: 34%;
     float: right;
-    background:#EBBA38;/*white- right side*/
+    background:#D4AE6D;/*white- right side*/
     height: 100%;
 }
+
 .randomGif {
     padding: 1% 5%;
     float: left;
@@ -105,7 +106,7 @@ aside {
 footer {
     height: 40px;
     line-height: 20px;
-    background: #D24800; /*under copyright*/
+    background: #762B18; /*under copyright*/
     clear: both;
     bottom: 0;
     width: 100%;
