@@ -126,3 +126,13 @@ footer {
     margin-right: 30px;
     float: left;
 }
+
+.columns {
+    float:left;
+}
+
+.column {
+    width: 20%;
+    float: left;
+    margin: 15px;
+}
