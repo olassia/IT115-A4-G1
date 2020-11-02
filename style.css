@@ -84,6 +84,8 @@ main {
     float: left;
     background: #D4AE6D; /* left side*/
     height: 100%;
+    border-style: solid;
+    border-color: #944039
 }
 .main2 {
     width: 100%;
