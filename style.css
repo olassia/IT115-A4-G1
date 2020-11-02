@@ -26,6 +26,7 @@ nav {
     overflow: visible;
     text-align: center;
     margin: 4%;
+    position: sticky, top:0; 
   }
   
 nav a {
@@ -37,7 +38,6 @@ nav a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-    position:sticky, top:0; 
   }
   
 nav a:hover {
