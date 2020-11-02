@@ -49,6 +49,16 @@ nav a.active {
     background-size: 200%;
   }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 p:first-letter {
 font-size:145%;
 }
