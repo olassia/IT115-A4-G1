@@ -49,13 +49,13 @@ nav a.active {
     background-size: 200%;
   }
 
-.sticky {
+nav a.sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.sticky + .content {
+nav a.sticky + .content {
   padding-top: 60px;
 }
 
@@ -67,9 +67,9 @@ var sticky = navbar.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    nav.classList.add("sticky")
   } else {
-    navbar.classList.remove("sticky");
+    nav.classList.remove("sticky");
   }
 }
 
