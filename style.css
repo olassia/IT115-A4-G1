@@ -37,6 +37,7 @@ nav a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
+    position: fixed;
   }
   
 nav a:hover {
