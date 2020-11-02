@@ -63,7 +63,10 @@ font-size:145%;
 
 body {
     background: #CF933E;
-    font-size:120%;
+    font-size:135%;
+    border-style: inset;
+    border-color: #7f8367;
+    
 }
 
 .row { /*logo and under copyright*/
