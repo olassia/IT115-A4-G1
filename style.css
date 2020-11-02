@@ -37,6 +37,7 @@ nav a {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
+    position:sticky, top:0; 
   }
   
 nav a:hover {
@@ -48,30 +49,6 @@ nav a.active {
     background-image: url(images/leaf_fall_1.gif);
     background-size: 200%;
   }
-
-nav a.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-nav a.sticky + .content {
-  padding-top: 60px;
-}
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    nav.classList.add("sticky")
-  } else {
-    nav.classList.remove("sticky");
-  }
-}
 
 p:first-letter {
 font-size:145%;
