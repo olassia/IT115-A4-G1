@@ -26,7 +26,11 @@ nav {
     overflow: visible;
     text-align: center;
     margin: 4%;
-  }
+    position: fixed;
+    line-height: 200%;
+    width: 92%
+     
+}
 
 nav a {
     float: none;
