@@ -25,11 +25,12 @@ header {
 nav { 
     overflow: hidden;
     text-align: center;
-    margin: 3%;
-    position: fixed;
+    margin: 4%;
     line-height: 200%;
     width: 90%;
-    background-color: #D4AE6D
+     
+}
+
      
 }
 
