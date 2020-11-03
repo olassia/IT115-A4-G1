@@ -28,6 +28,7 @@ nav {
     margin: 4%;
     line-height: 200%;
     width: 90%;
+    position: fixed;
    
 
 }
@@ -96,7 +97,7 @@ main {
     float: left;
     background: #D4AE6D; /* left side*/
     height: 100%;
-    margin: -4% auto 8%;
+    margin: 8% auto 8%;
     border-style: solid;
     border-color: #7f8367
 }
