@@ -85,7 +85,7 @@ main {
     float: left;
     background: #D4AE6D; /* left side*/
     height: 100%;
-    margin: 6% auto 6%;
+    margin: 11% auto 6%;
     border-style: solid;
     border-color: #944039;
     padding: 1.5%;
@@ -96,7 +96,7 @@ aside {
     float: right;
     background:#D4AE6D;/*white- right side*/
     height: 100%;
-    margin: 6% auto 6%;
+    margin: 11% auto 6%;
     border-style: solid;
     border-color: #944039;
 }
@@ -117,6 +117,17 @@ aside {
     background: #D4AE6D; /* left side*/
     height: 100%;
     margin: 10% auto 2%;
+    border-style: solid;
+    border-color: #7f8367;
+    padding: 1.5%;
+}
+
+.main4 {
+    width: 100%;
+    float: left;
+    background: #D4AE6D; /* left side*/
+    height: 100%;
+    margin: 1% auto 3%;
     border-style: solid;
     border-color: #7f8367;
     padding: 1.5%;
