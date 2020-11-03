@@ -106,6 +106,8 @@ aside {
     float: right;
     background:#D4AE6D;/*white- right side*/
     height: 100%;
+    border-style: solid;
+    border-color: #944039 
 }
 
 .randomGif {
