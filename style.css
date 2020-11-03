@@ -19,7 +19,7 @@ header {
     width: 100%;
     position: fixed;
     line-height: 3.2%;
-    font-size: 120%;
+    font-size: 125%;
  }
  
 nav { 
@@ -29,15 +29,13 @@ nav {
     line-height: 200%;
     width: 90%;
     position: fixed;
-   
-
 }
 
 nav a {
     float: none;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 25px;
@@ -66,9 +64,8 @@ font-size:115%;
 
 body {
     background: #CF933E;
-    font-size:105%;
+    font-size:110%;
     line-height: 2;
-    
 }
 
 .row { /*logo and under copyright*/
@@ -76,7 +73,6 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family: 'Staatliches', cursive;
-    
 }
 
 .wrapper { /*both main and aside */
@@ -92,7 +88,7 @@ main {
     margin: 8% auto 8%;
     border-style: solid;
     border-color: #944039;
-    padding: 2%;
+    padding: 1.5%;
 }
 .main2 {
     width: 100%;
@@ -102,11 +98,11 @@ main {
     margin: 10% auto 10%;
     border-style: solid;
     border-color: #7f8367;
-    padding: 2%;
+    padding: 1.5%;
 }
 
 aside {
-    width: 34%;
+    width: 33.5%;
     float: right;
     background:#D4AE6D;/*white- right side*/
     height: 100%;
@@ -116,7 +112,7 @@ aside {
 }
 
 .randomGif {
-    padding: 1% 5%;
+    padding: 1% 2%;
     float: left;
 }
 
@@ -128,7 +124,6 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-
 }
 
 h2 {
