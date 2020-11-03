@@ -22,13 +22,14 @@ header {
     font-size: 150%;
  }
  
-nav {
-    overflow: visible;
+nav { 
+    overflow: hidden;
     text-align: center;
     margin: 4%;
     position: fixed;
     line-height: 200%;
-    width: 92%
+    width: 90%;
+    background-color: #D4AE6D
      
 }
 
