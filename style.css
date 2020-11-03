@@ -18,8 +18,8 @@ header {
     height: 70px;
     width: 100%;
     position: fixed;
-    line-height: 3.5%;
-    font-size: 150%;
+    line-height: 3.2%;
+    font-size: 120%;
  }
  
 nav { 
@@ -55,7 +55,7 @@ nav a.active {
   }
 
 p:first-letter {
-font-size:130%;
+font-size:115%;
 }
 
 /* * {
@@ -66,7 +66,7 @@ font-size:130%;
 
 body {
     background: #CF933E;
-    font-size:135%;
+    font-size:105%;
     line-height: 2;
     
 }
@@ -91,16 +91,18 @@ main {
     height: 100%;
     margin: 8% auto 8%;
     border-style: solid;
-    border-color: #944039
+    border-color: #944039;
+    padding: 2%;
 }
 .main2 {
     width: 100%;
     float: left;
     background: #D4AE6D; /* left side*/
     height: 100%;
-    margin: 8% auto 0%;
+    margin: 10% auto 10%;
     border-style: solid;
-    border-color: #7f8367
+    border-color: #7f8367;
+    padding: 2%;
 }
 
 aside {
@@ -110,7 +112,8 @@ aside {
     height: 100%;
     margin: 8% auto 8%;
     border-style: solid;
-    border-color: #944039 
+    border-color: #944039;
+    padding: 3px;
 }
 
 .randomGif {
