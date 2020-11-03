@@ -127,9 +127,12 @@ footer {
 }
 
 h2 {
-  color: blue;
+  color: #7f8367;
 }
 
+h3 {
+    color: #2A6C43;
+}
 /* .copyright {
     height: 50px;
     line-height: 50px;
