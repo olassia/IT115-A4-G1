@@ -81,14 +81,24 @@ body {
 }
 
 main {
-    width: 64%;
+    width: 63%;
     float: left;
     background: #D4AE6D; /* left side*/
     height: 100%;
-    margin: 8% auto 8%;
+    margin: 6% auto 6%;
     border-style: solid;
     border-color: #944039;
     padding: 1.5%;
+}
+
+aside {
+    width: 33%;
+    float: right;
+    background:#D4AE6D;/*white- right side*/
+    height: 100%;
+    margin: 6% auto 6%;
+    border-style: solid;
+    border-color: #944039;
 }
 .main2 {
     width: 100%;
@@ -101,14 +111,15 @@ main {
     padding: 1.5%;
 }
 
-aside {
-    width: 33.5%;
-    float: right;
-    background:#D4AE6D;/*white- right side*/
+.main3 {
+    width: 100%;
+    float: left;
+    background: #D4AE6D; /* left side*/
     height: 100%;
-    margin: 8% auto 8%;
+    margin: 10% auto 2%;
     border-style: solid;
-    border-color: #944039;
+    border-color: #7f8367;
+    padding: 1.5%;
 }
 
 .randomGif {
