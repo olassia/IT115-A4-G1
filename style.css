@@ -89,6 +89,7 @@ main {
     float: left;
     background: #D4AE6D; /* left side*/
     height: 100%;
+    margin: 8% auto 8%;
     border-style: solid;
     border-color: #944039
 }
@@ -97,7 +98,7 @@ main {
     float: left;
     background: #D4AE6D; /* left side*/
     height: 100%;
-    margin: 8% auto 8%;
+    margin: 8% auto 2%;
     border-style: solid;
     border-color: #7f8367
 }
@@ -107,6 +108,7 @@ aside {
     float: right;
     background:#D4AE6D;/*white- right side*/
     height: 100%;
+    margin: 8% auto 8%;
     border-style: solid;
     border-color: #944039 
 }
