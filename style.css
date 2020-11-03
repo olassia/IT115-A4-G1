@@ -123,8 +123,11 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-    
 
+}
+
+h2 {
+  color: blue;
 }
 
 /* .copyright {
